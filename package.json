@@ -1,0 +1,16 @@
+{
+  "name": "sp-500-companies",
+  "version": "1.0.0",
+  "description": "Parsed Wikipedia and Updates a Data file with SP500 companies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sp500",
+    "tickers",
+    "companies"
+  ],
+  "author": "Justin Pfister",
+  "license": "ISC"
+}
