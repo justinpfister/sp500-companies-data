@@ -12,5 +12,12 @@
     "companies"
   ],
   "author": "Justin Pfister",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "jsdom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^16.2.14"
+  }
 }
