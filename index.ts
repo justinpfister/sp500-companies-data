@@ -25,7 +25,7 @@ let getsp500 = async () => {
 
         let vars = {
             ticker:ticker,
-            security:security,
+            company:security,
             sector:sector,
             industry:industry,
             hq:hq,
