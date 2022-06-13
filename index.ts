@@ -39,7 +39,9 @@ let getsp500 = async () => {
 
     }).toArray();
 
+    companies.shift(); // chop out the blank row.
     const csv = new ObjectsToCsv(companies);
+
     // Save to file:
     await csv.toDisk(__dirname + '/data/companies.csv');
 
