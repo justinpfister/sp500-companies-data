@@ -1,7 +1,6 @@
 import axios from 'axios';
 import cheerio from 'cheerio';
 import ObjectsToCsv from 'objects-to-csv';
-import path from 'path';
 
 let getsp500 = async () => {
 
