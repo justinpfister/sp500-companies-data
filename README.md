@@ -8,3 +8,7 @@ https://github.com/justinpfister/sp500-companies-data/blob/main/data/companies.c
 # About this repo
 
 This is my first public contribution to fintech related code. I'll try to keep it updated as the list changes. Please let me know if you have any questions, comments or request any enhancements. 
+
+# To Update the list, run this command.
+
+ts-node index.ts
